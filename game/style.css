@@ -1,0 +1,53 @@
+body {
+	background-color: #121319;
+	margin: 0;
+}
+
+.scene {
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+}
+
+.scene-image {
+	width: 400px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.content {
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 20px;
+	color: #e9e4d4;
+}
+
+.content h1 {
+	text-align: center;
+}
+
+.choices {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.choices button {
+	background-color: #1d202a;
+	color: #e9e4d4;
+	border: 1px solid #8a723a;
+	padding: 10px 14px;
+	font-size: 15px;
+	cursor: pointer;
+	width: 320px;
+	align-self: center;
+}
+
+.choices button:hover {
+	background-color: #262a37;
+	border-color: #c8a24a;
+}
+
+.choices button:active {
+	background-color: #c8a24a;
+}
