@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*1.全体の設定*/
+body {
+	max-width: 600px; /* コンテンツの最大幅を制限 [3] */
+	margin: 50px auto; /* 上下に余白を作り、左右中央に配置 [4] */
+	padding: 0 20px: /* スマホ表示時に端に少し余白を作る [7] */
+	font-family: sans-serif; /* 読みやすいフォントに変更 [10] */
+	line-height: 1.7; /* 行間を広げて読みやすくする [9] */
+	color: #333; /* 文字色を落ち着いたグレーに [11] */
+}
+
+/*2. 見出しの装飾 */
+h1 {
+	font-size: 28px; /* 文字を大きく[8] */
+	margin-bottom: 30px; /* 下に大きめの余白を作る[4] */
+	border-bottom: 3px solid #008bbd; /* 下線を引いてアクセントに[6,12] */
+	padding-bottom: 10px; /* 線と文字の間の余白[7] */
+}
+
+/*3 ラベル（項目名）の装飾 */
+p {
+	margin-bottom: 10px; /* 下の入力欄との間隔を調整[4] */
+	font-weight: bold; /* 項目名を太字にして目立たせる[13] */
+}
+
+/* 4.入力フィールド共通の装飾 */
+input[type="text"],
+select,
+textarea {
+	width: 100%; /* 横幅いっぱいに広げる[3] */
+	padding: 12px; /* 内側に余白を作ってクリックしやすく[7] */
+	border: 1px solid #ccc; /* 角を丸くして柔らかい印象に[15] */
+	margin-bottom: 25px; /* 次の項目との間に余白を作る[4] */
+	font-size: 16px: /* 入力する文字の大きさ[8] */
+}
+
+/* テキストエリアの高さ指定 */
+textarea {
+	height: 150px /* 高さを固定して入力しやすくする[3] */
+}
